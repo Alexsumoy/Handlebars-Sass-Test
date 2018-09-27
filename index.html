@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>PhotosAnchorTest</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <style media="screen">
+        img {
+            display: block;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <script id="anclas-template" type="text/x-handlebars-template">
+        <nav>
+            <a href="#img1"><i class="fa fa-camera-retro">Img1</i></a>
+            <a href="#img2"><i class="fa fa-camera-retro">Img2</i></a>
+            <a href="#img3"><i class="fa fa-camera-retro">Img3</i></a>
+            <a href="#img4"><i class="fa fa-camera-retro">Img4</i></a>
+            <a href="#img5"><i class="fa fa-camera-retro">Img5</i></a>
+        </nav>
+    </script>
+
+    <script id="template" type="text/x-handlebars-template">
+        {{> anclas}}
+        <img src="{{img1}}" alt="" id="img1">
+        <img src="{{img2}}" alt="" id="img2">
+        <img src="{{img3}}" alt="" id="img3">
+        <img src="{{img4}}" alt="" id="img4">
+        <img src="{{img5}}" alt="" id="img5">
+
+    </script>
+
+    <div id="imagenes"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"></script>
+    <script src="./js/functions.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+/* line 2, ../sass/styles.scss */
+img {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  width: 600px;
+}
